@@ -53,7 +53,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://job-application-tracker-fpzq.onrender.com/api";
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
